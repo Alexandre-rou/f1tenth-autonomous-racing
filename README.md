@@ -6,7 +6,8 @@ Autonomous driving algorithms for a 1/10-scale F1TENTH race car, written in Pyth
 
 **Result:** the car won the end-of-course class race. I ran it in simulation first, then on the physical car.
 
-<video src="videos/PP-sim-top-speed.mp4" controls muted loop width="100%"></video>
+https://github.com/user-attachments/assets/2cbf3941-7fe6-45b1-b526-1cbdf6e66596
+
 
 *Pure pursuit raceline follower in simulation at top speed.*
 
@@ -134,20 +135,6 @@ python3 utils/Runtime.py                     # optional lap timer
 ```
 
 **Dependencies:** ROS 1, Python 3, `rospy`, `numpy`, `scipy`, `opencv-python`, `scikit-image`, `matplotlib`, `pyyaml`.
-
----
-
-## Video gallery
-
-Simulation unless stated otherwise.
-
-| | |
-|---|---|
-| <video src="videos/PP-sim-top-speed.mp4" controls muted loop width="100%"></video><br>**Pure pursuit, top speed** | <video src="videos/PP-sim-Berlin-max-speed.mp4" controls muted loop width="100%"></video><br>**Pure pursuit, Berlin, max speed** |
-| <video src="videos/PP-sim-low-speed.mp4" controls muted loop width="100%"></video><br>**Pure pursuit, low speed** | <video src="videos/FTG-sim-Berlin.mp4" controls muted loop width="100%"></video><br>**Follow-the-gap, Berlin** |
-| <video src="videos/FTG-sim-torino.mp4" controls muted loop width="100%"></video><br>**Follow-the-gap, Torino** | <video src="videos/FTG-sim-obstacles.mp4" controls muted loop width="100%"></video><br>**Follow-the-gap, with obstacles** |
-| <video src="videos/FTG Circuit final.mp4" controls muted loop width="100%"></video><br>**Follow-the-gap, final circuit** | <video src="videos/FTG petit Circuit.mp4" controls muted loop width="100%"></video><br>**Follow-the-gap, small circuit** |
-| <video src="videos/Follow_the_wall.mp4" controls muted loop width="100%"></video><br>**Wall following** | |
 
 ---
 
